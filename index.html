@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Matel Saint-Tropez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header  -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Le Matel Saint-Tropez</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#events">Soirées</a></li>
+                    <li><a href="#gallery">Galerie</a></li>
+                    <li><a href="#reservation">Réservation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section Accueil avec image  -->
+    <section id="accueil" class="hero">
+        <div class="hero-content" img src="img1.png">
+            <h2>Bienvenue au Matel Saint-Tropez</h2>
+            <p>Profitez d'une expérience inoubliable au bord de la mer.</p>
+            <button onclick="scrollToSection('reservation')">Réserver maintenant</button>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="section">
+        <h2>À propos de nous</h2>
+        <p>Situé au cœur de Saint-Tropez, Le Matel offre des soirées exceptionnelles avec une ambiance festive et des cocktails raffinés. Profitez de notre service de qualité pour une clientèle prestigieuse.</p>
+    </section>
+
+    <!-- Section Menu -->
+    <section id="menu" class="section">
+        <h2>Notre Menu</h2>
+        <div class="menu-item">
+            <h3>Le Saint-Tropez</h3>
+            <p>Cocktail : Sirop de pêche, vin rosé, eau gazeuse - 19,99 €</p>
+        </div>
+        <div class="menu-item">
+            <h3>Le Poséidon</h3>
+            <p>Assortiment de fruits de mer frais - 59 €</p>
+        </div>
+    </section>
+
+    <!-- Section Soirées -->
+    <section id="events" class="section">
+        <h2>Nos soirées à thème</h2>
+        <p>Rejoignez-nous pour nos soirées à thème, comme la Soirée Blanche ou les fêtes de fin d'été. Tarif : 35 € par personne.</p>
+    </section>
+
+    <!-- Galerie d'images -->
+    <section id="gallery" class="section gallery">
+        <h2>Galerie</h2>
+        <div class="gallery-grid">
+            <img src="nosoirée.png" alt="Soirée 1">
+            <img src="images/soiree2.jpg" alt="Soirée 2">
+            <img src="images/soiree3.jpg" alt="Soirée 3">
+        </div>
+    </section>
+
+    <!-- Section Réservation -->
+    <section id="reservation" class="section">
+        <h2>Réservation</h2>
+        <form>
+            <input type="text" placeholder="Nom complet" required>
+            <input type="email" placeholder="Email" required>
+            <input type="number" placeholder="Nombre de personnes" required>
+            <button type="submit">Réserver</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Le Matel Saint-Tropez. Tous droits réservés.</p>
+    </footer>
+
+</body>
+
+
+
+</html>
